@@ -1,0 +1,40 @@
+git clone https://hkim426@bitbucket.org/rassadou/bdd_demo
+
+bdd_demo-from-rafi.git
+
+
+
+Test Name:	BowlingTwoGutterBallsInAFrame
+Test FullName:	Specs.ScoringFeature.BowlingTwoGutterBallsInAFrame
+Test Source:	C:\Users\hkim\Documents\Visual Studio 2015\Projects\Specs\Specs\Scoring.feature : line 17
+Test Outcome:	Not Run
+Test Duration:	0:00:00.012
+
+Test Name:	FinishingTheGameWithNothingButGutterBalls
+Test FullName:	Specs.ScoringFeature.FinishingTheGameWithNothingButGutterBalls
+Test Source:	C:\Users\hkim\Documents\Visual Studio 2015\Projects\Specs\Specs\Scoring.feature : line 22
+Test Outcome:	Not Run
+Test Duration:	0:00:00.004
+
+Result Message:	
+No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"I bowled a gutter ball on every frame")]
+public void GivenIBowledAGutterBallOnEveryFrame()
+{
+    ScenarioContext.Current.Pending();
+}
+    }
+}
+
+
+
+
+
